@@ -1,9 +1,10 @@
-const users = require('../../users.json');
+import users from '../../users.json' assert { type: 'json' };
 
-exports.handler = async (event, context) => {
+export default async (request) => {
   try {
     // Parse the count parameter from the URL
-    const countParam = event.queryStringParameters.count;
+    const url = new URL(request.url);
+    const countParam = url.searchParams.get('count');
     
     // Convert count to a number, default to all users if not specified or invalid
     let count = parseInt(countParam, 10);
@@ -20,19 +21,20 @@ exports.handler = async (event, context) => {
       .slice(0, count);
     
     // Return the users as JSON response
-    return {
-      statusCode: 200,
+    return new Response(JSON.stringify(shuffledUsers), {
       headers: {
         'Content-Type': 'application/json',
         'Access-Control-Allow-Origin': '*',
         'Cache-Control': 'public, max-age=3600'
-      },
-      body: JSON.stringify(shuffledUsers)
-    };
+      }
+    });
   } catch (error) {
-    return {
-      statusCode: 500,
-      body: JSON.stringify({ error: error.message })
-    };
+    // Added error handling
+    return new Response(JSON.stringify({ error: error.message }), {
+      status: 500,
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    });
   }
 };
