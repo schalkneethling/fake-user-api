@@ -1,6 +1,3 @@
 [build]
+  functions = "netlify/functions"
   publish = "."
-
-[[edge_functions]]
-  path = "/api/users"
-  function = "users"
