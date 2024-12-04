@@ -1,4 +1,6 @@
-# fake-user-api
+# Fictional Folks
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1683089d-e870-491c-8121-5b6c2b5d687f/deploy-status)](https://app.netlify.com/sites/fictionalfolks/deploys)
 
 Like the name says 🤗 Provides a fake user data API as a serverless function running on Netlify.
 
