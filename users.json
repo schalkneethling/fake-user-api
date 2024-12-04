@@ -1,0 +1,35 @@
+[
+    {
+      "firstName": "Selene",
+      "lastName": "Farrow",
+      "avatarURL": "selene.svg",
+      "role": "Flow Architect",
+      "email": "selene@nimbus.tech",
+      "telephone": "+1 (555) 123-4567",
+      "blueSkyURL": "https://bsky.app/profile/alex.johnson",
+      "mastodonURL": "https://mastodon.social/@alexjohnson",
+      "linkedInURL": "https://linkedin.com/in/alexjohnson"
+    },
+    {
+      "firstName": "Marlowe",
+      "lastName": "Solace",
+      "avatarURL": "marlow.svg",
+      "role": "Pixel Whisperer",
+      "email": "marlowe@nimbus.tech",
+      "telephone": "+1 (555) 987-6543",
+      "blueSkyURL": "https://bsky.app/profile/emma.rodriguez",
+      "mastodonURL": "https://mastodon.social/@emmarodriguez",
+      "linkedInURL": "https://linkedin.com/in/emmarodriguez"
+    },
+    {
+      "firstName": "Dorian",
+      "lastName": "Vexford",
+      "avatarURL": "dorian.svg",
+      "role": "Data Alchemist",
+      "email": "dorian@nimbus.tech",
+      "telephone": "+1 (555) 246-8135",
+      "blueSkyURL": "https://bsky.app/profile/raj.patel",
+      "mastodonURL": "https://mastodon.social/@rajpatel",
+      "linkedInURL": "https://linkedin.com/in/rajpatel"
+    }
+  ]
