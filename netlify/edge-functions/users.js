@@ -1,4 +1,4 @@
-import users from '/users.json' assert { type: 'json' };
+import users from './users.json' assert { type: 'json' };
 
 export default async (request, context) => {
   // Parse the count parameter from the URL
