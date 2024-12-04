@@ -25,7 +25,7 @@ export const handler = async (event, context) => {
       .slice(0, count)
       .map((user) => ({
         ...user,
-        avatarURL: `${baseUrl}/assets/avatars/${user.avatarURL}`,
+        avatarURL: `${baseUrl}/avatars/${user.avatarURL}`,
       }));
 
     // Return the users as JSON response
