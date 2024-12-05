@@ -20,13 +20,13 @@ The response object will be as below for each user:
 {
     "firstName": "Selene",
     "lastName": "Farrow",
-    "avatarURL": "selene.svg",
+    "avatarURL": "https://fictionalfolks.netlify.app/avatars/selene.svg",
     "role": "Flow Architect",
     "email": "selene@nimbus.tech",
     "telephone": "+1 (555) 123-4567",
-    "blueSkyURL": "https://bsky.app/profile/alex.johnson",
-    "mastodonURL": "https://mastodon.social/@alexjohnson",
-    "linkedInURL": "https://linkedin.com/in/alexjohnson"
+    "bluesky": "https://bsky.app/profile/alex.johnson",
+    "mastodon": "https://mastodon.social/@alexjohnson",
+    "linkedin": "https://linkedin.com/in/alexjohnson"
 }
 ```
 
