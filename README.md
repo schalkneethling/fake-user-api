@@ -16,17 +16,28 @@ https://fictionalfolks.netlify.app/.netlify/functions/users?count=2
 
 The response object will be as below for each user:
 
-```
+```json
 {
-    "firstName": "Selene",
-    "lastName": "Farrow",
-    "avatarURL": "https://fictionalfolks.netlify.app/avatars/selene.svg",
-    "role": "Flow Architect",
-    "email": "selene@nimbus.tech",
-    "telephone": "+1 (555) 123-4567",
-    "bluesky": "https://bsky.app/profile/alex.johnson",
-    "mastodon": "https://mastodon.social/@alexjohnson",
-    "linkedin": "https://linkedin.com/in/alexjohnson"
+  "firstName": "Selene",
+  "lastName": "Farrow",
+  "avatarURL": "selene.svg",
+  "role": "Flow Architect",
+  "email": "selene@nimbus.tech",
+  "telephone": "+1 (555) 123-4567",
+  "social": {
+    "bluesky": {
+      "name": "Bluesky",
+      "url": "https://bsky.app/profile/selene.farrow"
+    },
+    "mastodon": {
+      "name": "Mastodon",
+      "url": "https://mastodon.social/@selenefarrow"
+    },
+    "linkedin": {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/selenefarrow"
+    }
+  }
 }
 ```
 
