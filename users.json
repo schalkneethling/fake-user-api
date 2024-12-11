@@ -6,9 +6,20 @@
     "role": "Flow Architect",
     "email": "selene@nimbus.tech",
     "telephone": "+1 (555) 123-4567",
-    "bluesky": "https://bsky.app/profile/selene.farrow",
-    "mastodon": "https://mastodon.social/@selenefarrow",
-    "linkedin": "https://linkedin.com/in/selenefarrow"
+    "social": {
+      "bluesky": {
+        "name": "Bluesky",
+        "url": "https://bsky.app/profile/selene.farrow"
+      },
+      "mastodon": {
+        "name": "Mastodon",
+        "url": "https://mastodon.social/@selenefarrow"
+      },
+      "linkedin": {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/selenefarrow"
+      }
+    }
   },
   {
     "firstName": "Marlowe",
@@ -17,9 +28,20 @@
     "role": "Pixel Whisperer",
     "email": "marlowe@nimbus.tech",
     "telephone": "+1 (555) 987-6543",
-    "bluesky": "https://bsky.app/profile/marlowe.solace",
-    "mastodon": "https://mastodon.social/@marlowesolace",
-    "linkedin": "https://linkedin.com/in/marlowesolace"
+    "social": {
+      "bluesky": {
+        "name": "Bluesky",
+        "url": "https://bsky.app/profile/marlowe.solace"
+      },
+      "mastodon": {
+        "name": "Mastodon",
+        "url": "https://mastodon.social/@marlowesolace"
+      },
+      "linkedin": {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/marlowesolace"
+      }
+    }
   },
   {
     "firstName": "Dorian",
@@ -28,8 +50,19 @@
     "role": "Data Alchemist",
     "email": "dorian@nimbus.tech",
     "telephone": "+1 (555) 246-8135",
-    "bluesky": "https://bsky.app/profile/dorian.vexford",
-    "mastodon": "https://mastodon.social/@dorianvexford",
-    "linkedin": "https://linkedin.com/in/dorianvexford"
+    "social": {
+      "bluesky": {
+        "name": "Bluesky",
+        "url": "https://bsky.app/profile/dorian.vexford"
+      },
+      "mastodon": {
+        "name": "Mastodon",
+        "url": "https://mastodon.social/@dorianvexford"
+      },
+      "linkedin": {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/dorianvexford"
+      }
+    }
   }
 ]
